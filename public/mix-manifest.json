@@ -1,0 +1,16 @@
+{
+    "/js/chart.js": "/js/chart.js",
+    "/js/calendar.js": "/js/calendar.js",
+    "/js/app.js": "/js/app.js",
+    "/css/app.css": "/css/app.css",
+    "/css/dark.css": "/css/dark.css",
+    "/css/calendar.css": "/css/calendar.css",
+    "/css/select.css": "/css/select.css",
+    "/css/chart.css": "/css/chart.css",
+    "/js/vendor.js": "/js/vendor.js",
+    "/js/select.js": "/js/select.js",
+    "/js/tag.js": "/js/tag.js",
+    "/js/modal.js": "/js/modal.js",
+    "/js/lang.js": "/js/lang.js",
+    "/js/manifest.js": "/js/manifest.js"
+}

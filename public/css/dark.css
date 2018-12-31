@@ -1,0 +1,48 @@
+html,
+body {
+  height: 100%;
+  color: #ffffff;
+  background-color: #222222;
+}
+
+a {
+  color: #00BC8C;
+}
+
+.navbar-laravel {
+  color: #ffffff;
+  background-color: #222222;
+}
+
+.navbar-light {
+  color: #ffffff;
+}
+
+.navbar-light .navbar-brand {
+  color: #ffffff;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: #ffffff;
+}
+
+.table-hover tbody tr:hover {
+  background-color: #444444;
+}
+
+.card-header {
+  background-color: #444444;
+}
+
+.card-body {
+  background-color: #303030;
+}
+
+.card-footer {
+  background-color: #444444;
+}
+
+.setting-menu {
+  border-right: 2px solid #444444;
+}
+

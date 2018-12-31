@@ -1,0 +1,20 @@
+@import "~bootstrap-select/dist/css/bootstrap-select.min.css";
+
+.bootstrap-select > button {
+  cursor: default!important;
+  color: #495057!important;
+  background-color: #fff!important;
+  background-clip: padding-box!important;
+  border: 1px solid #ced4da!important;
+}
+
+.bootstrap-select > .dropdown-toggle::after {
+  display: inline-block!important;
+  width: 0!important;
+  height: 0!important;
+  vertical-align: middle!important;
+  border-top: .5em solid!important;
+  border-right: .3em solid transparent!important;
+  border-bottom: 0!important;
+  border-left: .3em solid transparent!important;
+}

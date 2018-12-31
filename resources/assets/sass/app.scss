@@ -1,0 +1,153 @@
+
+// Fonts
+//@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+html, body {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  overflow-x: hidden;
+}
+
+.navbar-laravel {
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
+}
+
+.badge-tag {
+  font-size: 1em;
+}
+
+// アイコンのデザイン修正
+.fas {
+  margin-right: 5px;
+}
+
+
+/* ****************************** */
+/* Vue */
+/* ****************************** */
+// レンダリング遅延対策
+[v-cloak] {
+  display:none;
+}
+/* ****************************** */
+
+/* ****************************** */
+/* レイアウト */
+/* ****************************** */
+.settings-menu {
+  border-right: 2px solid rgba(0, 0, 0, 0.04);
+  position: fixed;
+  top: 60px;
+  bottom: 0;
+  left: 0;
+  padding-top: 10px;
+}
+
+.settings-content {
+  overflow-y: auto;
+  position: absolute;
+  top: 60px;
+  right: 0;
+  bottom: 0;
+  padding-top: 10px;
+  padding-right: 30px;
+}
+
+a {
+  color: #212529;
+
+  &:hover {
+    color: $base-color;
+  }
+}
+
+.user-import-link {
+  color: $base-color;
+
+  &:hover {
+    color: $base-color;
+  }
+}
+
+/* ****************************** */
+/* Table */
+/* ****************************** */
+
+th > a {
+  color: #212529;
+  &:hover {
+    text-decoration: none;
+  }
+}
+
+// 行ホバー
+.table-hover tbody tr:hover {
+  background-color: rgba(184, 77, 69, 0.05);
+}
+
+// 削除カラム
+.col-del {
+  width: 80px;
+  max-width: 80px;
+}
+
+// 管理画面のシステムログテーブル
+.system-log-table {
+  display: block;
+  overflow-x: auto;
+}
+
+/* ****************************** */
+
+.is-error {
+  font-size: 1.25em;
+}
+
+.has-ok {
+  color: #00a8b5;
+}
+
+.has-ng {
+  color: #f30e5c;
+}
+
+/* ****************************** */
+/* Media Size */
+/* ****************************** */
+// 横幅が1200px以上
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1400px;
+  }
+}
+
+// タブレット以下
+@media (max-width: 768px) {
+  .setting-menu {
+    position: relative;
+    top: 15px;
+    border-right: none;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.04);
+    padding-top: 0;
+    padding-right: 0;
+  }
+
+  .settings-content {
+    position: relative;
+    top: 30px;
+    padding-top: 0;
+    padding-right: 0;
+  }
+}
+
+/* ****************************** */

@@ -1,0 +1,19 @@
+@import "~fullcalendar/dist/fullcalendar.min.css";
+
+.fc-sat {
+  color: #004cb4;
+  background-color:#eaf4FF;
+}
+
+.fc-sun {
+  color: #b40000;
+  background-color:#ffeaea;
+}
+
+.fc button {
+  font-size: 0.7875rem;
+}
+
+.fc-view-container .alert-info {
+  background-color:#efffed;
+}
